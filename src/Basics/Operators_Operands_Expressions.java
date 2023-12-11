@@ -11,7 +11,7 @@ public class Operators_Operands_Expressions {
 
         // Incrementation
 
-        int result1 = 1;
+        int result1 = 10;
         result1++;
         System.out.println("result1 = " + result1);
         result1--;
