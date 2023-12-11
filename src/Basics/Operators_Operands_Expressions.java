@@ -8,5 +8,13 @@ public class Operators_Operands_Expressions {
         char secondChar = 'B';
         System.out.println(firstChar + secondChar);
         System.out.println("" + firstChar + secondChar);
+
+        // Incrementation
+
+        int result1 = 1;
+        result1++;
+        System.out.println("result1 = " + result1);
+        result1--;
+        System.out.println("result1 = " + result1);
     }
 }
