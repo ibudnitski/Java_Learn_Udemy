@@ -29,13 +29,9 @@ NOTE: Do not add a  main method to solution code.
 * */
 public class DecimalComparator {
     public static void main(String[] args) {
-        System.out.println(areEqualByThreeDecimalPlaces(3.175, 3.176));
     }
 
     public static boolean areEqualByThreeDecimalPlaces(double numOne, double numTwo) {
-        long x = Math.round(numOne * 1000) / 1000;
-        long y = Math.round(numTwo * 1000) / 1000;
-
-        return x == y;
+        return (int) (numOne * 1000) == (int)(numTwo*1000);
     }
 }
