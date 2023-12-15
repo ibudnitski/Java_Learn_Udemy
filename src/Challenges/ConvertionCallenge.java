@@ -1,4 +1,4 @@
-package Challennges;
+package Challenges;
 
 public class ConvertionCallenge {
     public static void main(String[] args) {
