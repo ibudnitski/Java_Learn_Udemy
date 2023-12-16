@@ -2,7 +2,7 @@ package Challenges;
 
 public class MethodOverloadingChallenge {
     public static void main(String[] args) {
-        System.out.println("Person height in cm will be: " + convertToCentimeters(5,8));
+        System.out.println("Person height in cm will be: " + convertToCentimeters(6,0));
     }
 
     public static double convertToCentimeters(int heightInches){
@@ -10,8 +10,7 @@ public class MethodOverloadingChallenge {
     }
 
     public static double convertToCentimeters(int heightFeet, int remainingHeightInches){
-        int result = (heightFeet * 12) + remainingHeightInches;
-        return convertToCentimeters(result);
+        return convertToCentimeters((heightFeet * 12) + remainingHeightInches);
     }
 
 }
