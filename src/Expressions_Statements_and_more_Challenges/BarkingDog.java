@@ -1,4 +1,4 @@
-package Challenges;
+package Expressions_Statements_and_more_Challenges;
 
 /*
 * We have a dog that likes to bark.  We need to wake up if the dog is barking at night!

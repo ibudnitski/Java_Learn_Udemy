@@ -1,4 +1,4 @@
-package Challenges;
+package Expressions_Statements_and_more_Challenges;
 
 public class SpeedConverter {
     public static void main(String[] args) {

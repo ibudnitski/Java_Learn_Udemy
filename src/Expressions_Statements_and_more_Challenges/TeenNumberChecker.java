@@ -1,4 +1,4 @@
-package Challenges;
+package Expressions_Statements_and_more_Challenges;
 
 /*
 * We'll say that a number is "teen" if it is in the range 13 -19 (inclusive).

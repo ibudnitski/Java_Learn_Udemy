@@ -1,4 +1,4 @@
-package Challenges;
+package Expressions_Statements_and_more_Challenges;
 
 /*
 Equality Printer

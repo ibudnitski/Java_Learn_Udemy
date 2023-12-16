@@ -1,4 +1,4 @@
-package Challenges;
+package Expressions_Statements_and_more_Challenges;
 
 /*Write a method printYearsAndDays with parameter of type long named minutes.
 
