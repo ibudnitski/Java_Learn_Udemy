@@ -3,7 +3,7 @@ package ControlFlow_Challenges;
 public class SwitchChallengeOne {
     public static void main(String[] args) {
 
-        char charA = 'A';
+        char charA = 'B';
 
         switch (charA){
             case 'A':
