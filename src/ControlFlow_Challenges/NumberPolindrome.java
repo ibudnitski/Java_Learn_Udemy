@@ -11,13 +11,13 @@ public class NumberPolindrome {
         }
         int reverse = 0;
         int numberToUse = number;
-        String answer = "";
+        StringBuilder answer = new StringBuilder();
 
         while (numberToUse != 0){
-            answer += numberToUse % 10;
+            answer.append(numberToUse % 10);
             numberToUse /= 10;
         }
-        reverse = Integer.parseInt(answer);
+        reverse = Integer.parseInt(answer.toString());
         return number == reverse;
     }
 }
